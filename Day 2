@@ -1,0 +1,31 @@
+# Multiple Assignment 
+#In python, we can assign multiple variables and values in one single line.
+
+a=10
+b= 15.5
+c="20"
+print(a)     # 10
+print(b)     # 15.5
+print(c)     # 20
+
+#Instead of this we can use multiple assignment method 
+
+a,b,c= 10, 15.5,"20"
+print(a,b,c)    # 10 15.5 20
+
+a=b=c= 20
+print(a,b,c)    # 20 20 20
+
+# We can store Srting values also
+
+a,b,c="Apple",2.4,"True"
+print(a,b,c)   #Apple 2.4 True
+
+
+#String Methods 
+
+#There are many builtin functions available in python. Let us see some of the string Methods. 
+#len()----> used to find the length of the string
+#strname.find()----> used to find the index position of the char of the particular string
+#strname.capitalize()--->used to change the 1st Index vale in the uppercase
+#strname.
