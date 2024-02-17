@@ -25,7 +25,31 @@ print(a,b,c)   #Apple 2.4 True
 #String Methods 
 
 #There are many builtin functions available in python. Let us see some of the string Methods. 
-#len()----> used to find the length of the string
-#strname.find()----> used to find the index position of the char of the particular string
-#strname.capitalize()--->used to change the 1st Index vale in the uppercase
-#strname.
+
+name="umbrella"
+print(len(name))               # length of the name
+print(name.find("e"))          # Index position of the given char
+print(name.capitalize())       # change the 1st char into uppercase
+print(name.upper())            # change the entire name into uppercase
+print(name.lower())            # change the entire name into lowercase
+print(name.isdigit())          # Return bool value 
+print(name.isalpha())          # Return bool value
+print(name.count("e"))         # Return no of times the given is occur
+print(name.replace("e","a")    # replace "e" by"a"
+print(name*3)                  # 3timez the name is multiplied
+
+
+#Type casting
+
+#type()---> used to convert one data type into another 
+
+x,y,z=1,4.5,"3"
+print(x,y,z)   # 1 4.5 3
+
+#we can typecast the above code into various types
+
+x,y,z= 1,4.5,"3"
+print(x)         #1
+print(int(y))    #4
+print(float(z))  #3.0
+print("x is:"+ str(x))    # x is 1
