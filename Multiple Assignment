@@ -1,0 +1,21 @@
+# In python, we can assign multiple variables and values in one single line.
+
+a=10
+b= 15.5
+c="20"
+print(a)     # 10
+print(b)     # 15.5
+print(c)     # 20
+
+#Instead of this we can use multiple assignment method 
+
+a,b,c= 10, 15.5,"20"
+print(a,b,c)    # 10 15.5 20
+
+a=b=c= 20
+print(a,b,c)    # 20 20 20
+
+# We can store Srting values also
+
+a,b,c="Apple",2.4,"True"
+print(a,b,c)   #Apple 2.4 True
