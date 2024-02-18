@@ -5,7 +5,7 @@ name= "Python"
 print(python)
 
 name="Python"
-print(name + "is good")  # Pythonis good
+print(name + "is good")       # Pythonis good
 print(name + " " +"is good")  # Python is good
 
 name1="Python"
