@@ -19,7 +19,7 @@ print(a,b,c)    # 20 20 20
 # We can store Srting values also
 
 a,b,c="Apple",2.4,"True"
-print(a,b,c)   #Apple 2.4 True
+print(a,b,c)    # Apple 2.4 True
 
 
 #String Methods 
@@ -44,7 +44,7 @@ print(name*3)                  # 3timez the name is multiplied
 #type()---> used to convert one data type into another 
 
 x,y,z=1,4.5,"3"
-print(x,y,z)   # 1 4.5 3
+print(x,y,z)     # 1 4.5 3
 
 #we can typecast the above code into various types
 
