@@ -5,13 +5,13 @@ utensils={"fork","spoon","knife"}
 for x in utensils:
   print(x)           # since it is an unsorted and unindexed, it print different order each time of execution
 
-# since sets doesn't allow duplicate elements, it displays only once when the elements, are repeated.
+# since sets doesn't allow duplicate elements, it displays only once when the elements are repeated.
 
 utensils={"fork","spoon","knife","knife"}
 for x in utensils:
-  print(x)           # it print knife only once
+  print(x)           # it print "knife" only once
 
-# sets have some built-in functions
+# sets have some built-in functions. Some of them are,
 
 utensils={"fork","spoon","knife"}
 print(utensils.add("napkin"))       # add "napkin" at the end of the elements 
