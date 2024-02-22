@@ -42,4 +42,3 @@ last_character= name[-1]
 print(first_name)               # HELLO
 print(last_name)                # python
 print(last_character)           # n
-
