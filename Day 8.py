@@ -36,3 +36,10 @@ name="Hello python"
 if(name[0].islower()):
   name= name.capitalize()
 print(name)                     # Hello python 
+first_name= name[:5].upper()
+last_name= name[6:].lower()
+last_character= name[-1]
+print(first_name)               # HELLO
+print(last_name)                # python
+print(last_character)           # n
+
