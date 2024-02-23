@@ -31,3 +31,12 @@ hello("John","Mathew",21)
 
 # return statements= Funtions send python values/objects back to the caller.
 #                    TThesevalues/objects are known as the functions return value.
+
+
+
+def multiply(number1,number2):
+  result= number1*number2)
+  return result
+print(miltiply(5,4))               # 20
+x=multiply(6,8)
+print(x)                           # 48
